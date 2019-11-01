@@ -6,9 +6,7 @@
 
 int main()
 {
-
 char buf[1024];
-
 ssize_t s=read(0,buf,strlen(buf));
 
 if(s>0){
